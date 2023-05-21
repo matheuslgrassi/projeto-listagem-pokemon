@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" rel="stylesheet">
+    <title>Lista de Pokémons</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon_pokeball.ico">
+  </head>
+
+  <body>
+    <header>
+      <a href="#">
+        <img src="./src/images/pokeball.png" alt="pokebola" class="logo" />
+      </a>
+
+      <a href="#">
+        <img src="./src/images/International_Pokémon_logo.svg" alt="Logo Pokemon" class="logo-pokemon">
+      </a>
+
+      <button id="botao-alterar-tema">
+        <img src="./src/images/sun_01.svg" alt="imagem do sol" class="imagem-botao">
+      </button>
+    </header>
+
+    <main>
+      <ul class="listagem-pokemon">
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Abra</span>
+                <span>#063</span>
+            </div>
+
+            <img src="./src/images/abra.gif" alt="abra" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo psiquico">Psíquico</li>
+            </ul>
+
+            <p class="descricao">This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Jirachi</span>
+                <span>#385</span>
+            </div>
+
+            <img src="./src/images/jirachi.gif" alt="jirachi" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo psiquico">Psíquico</li>
+            </ul>
+
+            <p class="descricao">A legend states that Jirachi will make true any wish that is written on notes attached to its head when it awakens. If this Pokémon senses danger, it will fight without awakening.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Gastly</span>
+                <span>#092</span>
+            </div>
+
+            <img src="./src/images/gastly.gif" alt="gastly" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo fantasma">Fantasma</li>
+                <li class="tipo veneno">Veneno</li>
+            </ul>
+
+            <p class="descricao">It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Haunter</span>
+                <span>#093</span>
+            </div>
+
+            <img src="./src/images/haunter.gif" alt="haunter" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo fantasma">Fantasma</li>
+                <li class="tipo veneno">Veneno</li>
+            </ul>
+
+            <p class="descricao">It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Gengar</span>
+                <span>#094</span>
+            </div>
+
+            <img src="./src/images/gengar.gif" alt="gengar" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo fantasma">Fantasma</li>
+                <li class="tipo veneno">Veneno</li>
+            </ul>
+
+            <p class="descricao">Hiding in people’s shadows at night, it absorbs their heat. The chill it causes makes the victims shake.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Mewtwo</span>
+                <span>#150</span>
+            </div>
+
+            <img src="./src/images/mewtwo.gif" alt="mewtwo" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo psiquico">Psíquico</li>
+            </ul>
+
+            <p class="descricao">Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Mew</span>
+                <span>#151</span>
+            </div>
+
+            <img src="./src/images/mew.gif" alt="mew" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo psiquico">Psíquico</li>
+            </ul>
+
+            <p class="descricao">When viewed through a microscope, this Pokémon’s short, fine, delicate hair can be seen.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+                <span>Espeon</span>
+                <span>#196</span>
+            </div>
+
+            <img src="./src/images/espeon.gif" alt="espeon" class="gif">
+
+            <ul class="tipos">
+                <li class="tipo psiquico">Psíquico</li>
+            </ul>
+
+            <p class="descricao">The tip of its forked tail quivers when it is predicting its opponent’s next move.</p>
+        </li>
+      </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
